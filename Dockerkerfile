@@ -1,11 +1,4 @@
-FROM rapidsai/rapidsai:0.10-cuda9.2-runtime-ubuntu16.04
-
-# CuPy is used for GPU-Accelerated UDFs
-RUN conda run -n rapids pip install cupy-cuda92
-
-# Update to latest jupyterlab and rebuild modules
-RUN conda run -n rapids pip install --upgrade jupyterlab
-RUN conda run -n rapids jupyter lab build
+FROM isaac2313/frameworks:tf2.1_torch1.3_cuda10.1
 
 # Create working directory to add repo.
 WORKDIR /workshop
