@@ -14,5 +14,5 @@ EXPOSE 8888
 
 # Please see `entrypoint.sh` for details on how this content
 # is launched.
-ADD entrypoint.sh /usr/local/bin
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+ADD entrypoint.sh /opt/project
+ENTRYPOINT ["/opt/project/entrypoint.sh"]
