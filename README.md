@@ -12,3 +12,14 @@
 
 4. Once the container is running, visit the content in your browser at `localhost:16006`.
 
+# Tacotron2 MPS Test Instructions
+
+0. Turn NVIDIA MPS on.
+
+1. Run the docker container with `-it` flag. (interactive shell)
+
+2. Run `cd /home`.
+
+3. Run `source venv/bin/activate`.
+
+4. Run `./profile_mps <number_of_processes>`
