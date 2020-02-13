@@ -1,4 +1,4 @@
-FROM isaac2313/frameworks:tf2.1_torch1.3_cuda10.1
+FROM isaac2313/gtc2020_tutorial_content:latest
 
 # Create working directory to add repo.
 WORKDIR /workshop
