@@ -14,7 +14,7 @@
 
 # Tacotron2 MPS Test Instructions
 
-0. Turn NVIDIA MPS on.
+0. Turn CUDA MPS on.
 
 1. Run the docker container with `-it` flag. (interactive shell)
 
